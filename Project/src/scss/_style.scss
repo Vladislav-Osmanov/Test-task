@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Commissioner-Regular";
+  src: local("Commissioner-Regular"),
+    url("../fonts/Commissioner-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InterMedium";
+  src: local("InterMedium"),
+    url("../fonts/InterMedimu.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Commissioner-Bold";
+  src: local("Commissioner-Bold"),
+    url("../fonts/Commissioner-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DrukWideCyr-Bold";
+  src: local("DrukWideCyr-Bold"),
+    url("../fonts/DrukWideCyr-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+h1,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  min-width: 320px;
+  font-family: "DrukWideCyr-Bold", "Commissioner-Bold", "Commissioner-Regular", sans-serif;
+  background-color: #ececec;
+}
+
+$desktop-primary-orange: #f36722;
+$desktop-hover-orange: #ff8b3d;
+$desktop-pressed-orange: #dc4f00;
+$desktop-primary-blue: #2d69c2;
+$desktop-hover-blue: #5d94e7;
+$desktop-pressed-blue: #1652ac;
+$desktop-primary-green: #2e8d43;
+$desktop-green-hover: #6ec782;
+$desktop-pressed-green: #0a7421;
+$desktop-background: #efefef;
+$desktop-white: #fff;
+$desktop-grey-50: #fafafa;
+$desktop-grey-100: #ececec;
+$desktop-grey-200: #c4c4c4;
+$desktop-grey-300: #a1a1a1;
+$desktop-grey-400: #747474;
+$desktop-grey-500: #404040;
+$desktop-black: #202020;
+$desktop-white-500: rgba(255, 255, 255, 0.5);
+$desktop-white-200: rgba(255, 255, 255, 0.2);
+$desktop-white-100: rgba(255, 255, 255, 0.1);
+$desktop-red-negative: #fa3015;
+$app-white: #fff;
+$app-orange: #f36722;
+$app-black: #202020;
+$app-graytext: #bdbdbd;
+$app-graybg: #e8e8e8;
+$app-graystroke: #dcdcdc;
+$app-greenaccept: #6ec782;
+
+/* BLOG */
+.container {
+  max-width: 1920px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-reset {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bth-reset {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.flex {
+  display: flex;
+}

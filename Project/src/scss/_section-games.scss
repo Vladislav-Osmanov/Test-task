@@ -1,0 +1,138 @@
+@import 'style.scss';
+
+.games {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.games__container {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 64px;
+
+  .games__title {
+    font-weight: 700;
+    font-size: 80px;
+    margin-right: auto;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: $desktop-black;
+  }
+
+  .games__to-section {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: $desktop-primary-orange;
+  }
+}
+
+.games__list {
+  display: flex;
+  align-items: center;
+
+  .games__item {
+    padding: 582px 24px 24px 24px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: $desktop-white;
+    border-radius: 20px;
+    transition: background-color .5s ease-in-out;
+
+    .games__titles {
+      font-weight: 700;
+      font-size: 32px;
+      margin-bottom: 16px;
+      line-height: 130%;
+      text-transform: uppercase;
+      color: $desktop-black;
+      transition: color .5s ease-in-out;
+    }
+
+    .games__text {
+      font-family: "Inter", sans-serif;
+      max-width: 440px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 160%;
+      color: $desktop-black;
+      transition: color .5s ease-in-out;
+    }
+  }
+}
+
+.games__item-one {
+  background-image: url(../images/games1.png);
+  background-repeat: no-repeat;
+  transition: background-position .5s ease-in-out;
+}
+
+.games__item-two {
+  background-image: url(../images/games2.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  transition: background-position .5s ease-in-out;
+}
+
+.games__item-three {
+  background-image: url(../images/games3.png);
+  background-repeat: no-repeat;
+  transition: background-position .5s ease-in-out;
+}
+
+.games__item-one:hover {
+  background-position: right -75px;
+  transition: background-position .5s ease-in-out;
+}
+
+.games__item-two:hover {
+  background-position: right -75px;
+  transition: background-position .5s ease-in-out;
+}
+
+.games__item-three:hover {
+  background-position: right -75px;
+  transition: background-position .5s ease-in-out;
+}
+
+.games__item:hover {
+  padding-top: 488px;
+  background-color: $desktop-black;
+  transition: background-color .5s ease-in-out;
+}
+
+.games__item:hover .games__titles {
+  color: $desktop-white;
+  transition: color .5s ease-in-out;
+}
+
+.games__item:hover .games__text {
+  color: $desktop-white;
+  margin-bottom: 32px;
+  transition: color .5s ease-in-out;
+}
+
+.games__item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.games__item-btn {
+  display: none;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 20px 24px;
+  line-height: 140%;
+  text-transform: uppercase;
+  border-radius: 16px;
+  color: $desktop-white;
+  background-color: $desktop-primary-orange;
+}
+
+.games__item:hover .games__item-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

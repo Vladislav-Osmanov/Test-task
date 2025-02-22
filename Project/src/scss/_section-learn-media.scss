@@ -1,0 +1,96 @@
+@media (max-width: 1600px) {
+
+  .learn {
+    padding-top: 21px;
+  }
+
+  .learn__container-div {
+    .learn__container-wrap {
+      width: 100%;
+      padding-right: 0;
+      border-right: none;
+    }
+
+    .learn__container-right {
+      display: none;
+    }
+  }
+}
+
+@media(max-width: 950px) {
+  .learn__wrap-container {
+    padding: 0;
+    background-color: inherit;
+
+    .learn__container {
+      margin-bottom: 17px;
+
+      .learn__title {
+        font-size: 26px;
+      }
+
+      .learn__to-section {
+        font-size: 14px;
+        background-color: inherit;
+
+        .learn__svg {
+          display: none;
+        }
+      }
+    }
+
+    .learn__container-div {
+      .learn__container-wrap {
+        .learn__container-wraps {
+          padding: 12px;
+
+          .learn__title {
+            font-size: 20px;
+            max-width: 272px;
+            margin-bottom: 220px;
+          }
+          .learn__text {
+            font-size: 10px;
+          }
+        }
+
+        .learn__container-wrapss {
+          padding: 12px;
+
+          .learn__title {
+            font-size: 20px;
+            max-width: 272px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 600px) {
+  .learn__container-div {
+    .learn__container-wraps {
+      background-image: url(../images/1-mobile.png);
+      background-repeat: no-repeat;
+    }
+  }
+
+  .learn__container-wrapss {
+    .learn__title {
+      margin-bottom: 126px;
+    }
+
+    .learn__button {
+      display: flex;
+      flex-direction: column;
+
+      .learn__item-bth {
+        margin: 0;
+      }
+
+      .learn__item-bth:not(:last-child) {
+        margin-bottom: 4px;
+      }
+    }
+  }
+}

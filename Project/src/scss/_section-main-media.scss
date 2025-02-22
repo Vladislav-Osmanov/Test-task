@@ -1,0 +1,45 @@
+@media(max-width: 1130px) {
+  .mains {
+    padding-bottom: 42px;
+  }
+
+  .main {
+    padding-bottom: 21px;
+  }
+
+  .main__container {
+    .main__container-wrap {
+      padding: 240px 12px 12px 12px;
+
+      .main__title {
+        width: 272px;
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+@media(max-width: 650px) {
+  .main__container {
+    background-image: url(../images/3-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+
+    .main__container-wrap {
+      .main__title {
+        margin-bottom: 12px;
+      }
+
+      .main__btn-div {
+        flex-direction: column;
+
+        .main__btn:not(:last-child) {
+          margin-right: 0;
+          margin-bottom: 4px;
+        }
+      }
+    }
+  }
+}

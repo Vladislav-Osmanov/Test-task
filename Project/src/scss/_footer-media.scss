@@ -1,0 +1,54 @@
+@media(max-width: 1300px) {
+  .footer {
+    padding-top: 20px;
+
+  }
+
+  .footer__container-qr {
+    display: none;
+  }
+}
+
+@media(max-width: 970px) {
+  .footer {
+    padding: 0 0 25px 12px;
+    background-image: url(../images/basketball2.png);
+    background-repeat: no-repeat;
+    background-position: right bottom 69px;
+
+
+    .footer__container {
+      margin: 0;
+
+      .footer__title {
+        max-width: 296px;
+        font-size: 20px;
+      }
+
+      .footer__list {
+        flex-direction: column;
+        margin-bottom: 165px;
+
+        .footer__item {
+          margin: 0;
+        }
+
+        .footer__item:not(:last-child) {
+          margin-bottom: 24px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    .footer__list {
+      .footer__item {
+        .footer__link {
+          .footer__svg-one {
+            margin-right: 14px;
+          }
+        }
+      }
+    }
+  }
+}

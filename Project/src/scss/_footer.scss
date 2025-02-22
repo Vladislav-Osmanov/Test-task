@@ -1,0 +1,89 @@
+@import 'style.scss';
+
+
+
+.footer {
+  display: flex;
+  padding: 0 0 38px 20px;
+  background-image: url(../images/basketball.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  justify-content: space-between;
+  padding-top: 35px;
+
+  .footer__container {
+    margin-right: 5px;
+  }
+
+  .footer__title {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 32px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: $desktop-black;
+  }
+
+  .footer__list {
+    display: flex;
+    margin-bottom: 307px;
+
+    .footer__item {
+      .footer__link {
+        flex-shrink: 0;
+
+        .footer__svg-one {
+          margin-right: 20px;
+        }
+      }
+    }
+
+    .footer__text {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 140%;
+      text-transform: uppercase;
+      color: $desktop-black;
+    }
+  }
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 37px;
+}
+
+.footer__container-qr {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-right: 265px;
+  max-width: 352px;
+  max-height: 401px;
+  padding: 44px;
+  border-radius: 30px;
+  background-color: $desktop-white;
+
+  .footer__svg-qr {
+    margin-bottom: 35px;
+  }
+
+  .footer__span {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 12px;
+    line-height: 160%;
+    text-align: center;
+    color: $desktop-grey-400;
+  }
+
+  .footer__text-qr {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    text-align: center;
+    color: $desktop-black;
+  }
+}

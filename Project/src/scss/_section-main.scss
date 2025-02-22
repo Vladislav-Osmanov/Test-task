@@ -1,0 +1,70 @@
+@import 'style.scss';
+
+.mains {
+  padding-bottom: 120px;
+  border-bottom: 1px solid #202020;
+}
+
+.main {
+  padding-bottom: 60px;
+}
+
+.main__container {
+  background-image: url(../images/games.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+
+  .main__container-wrap {
+    padding: 506px 20px 20px 20px;
+
+    .main__title {
+      max-width: 1300px;
+      font-weight: 700;
+      font-size: 80px;
+      margin-bottom: 48px;
+      line-height: 120%;
+      text-transform: uppercase;
+      color: $desktop-white;
+    }
+
+    .main__btn-div {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.main__btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 100%;
+  height: 64px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  border-radius: 20px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 20px 0 rgba(23, 23, 23, 0.03);
+  color: $desktop-black;
+  background-color: $desktop-white;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.main__btn:not(:last-child) {
+  margin-right: 8px;
+}
+
+.main__svg {
+  fill: red;
+}
+
+.main__btn:hover,
+.main__svg {
+  color: $desktop-white;
+  background-color: $desktop-primary-orange;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}

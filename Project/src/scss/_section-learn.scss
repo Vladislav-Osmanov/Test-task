@@ -1,0 +1,257 @@
+@import 'style.scss';
+
+.learn {
+  padding-top: 60px;
+  
+}
+
+.learn__wrap-container {
+  padding: 32px;
+  border-radius: 20px;
+  background-color: $desktop-white;
+}
+
+.learn__container {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 64px;
+
+  .learn__title {
+    font-weight: 700;
+    font-size: 80px;
+    margin-right: auto;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: $desktop-black;
+  }
+
+  .learn__to-section {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: $desktop-primary-green;
+    background-color: $desktop-white;
+  }
+}
+
+.learn__container-wrap {
+  width: calc(1194 / 1880 * 100%);
+  padding-right: 16px;
+  border-right: 1px solid $desktop-grey-200;
+
+  .learn__container-wraps {
+    padding: 24px;
+    background-image: url(../images/learn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+    .learn__title {
+      font-weight: 700;
+      font-size: 48px;
+      margin-bottom: 357px;
+      line-height: 120%;
+      text-transform: uppercase;
+      color: $desktop-white;
+    }
+
+    .learn__text {
+      font-weight: 700;
+      font-size: 12px;
+      padding: 8px 12px;
+      line-height: 140%;
+      text-transform: uppercase;
+      color: $desktop-primary-green;
+      border-radius: 39px;
+    }
+  }
+}
+
+.learn__container-wrapss {
+  padding: 24px;
+  border-radius: 14px;
+  background-color: $desktop-primary-green;
+
+  .learn__title {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 62px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: $desktop-white;
+  }
+
+  .learn__button {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 549px;
+
+    .learn__item-bth {
+      display: flex;
+    }
+
+    .learn__btn {
+      padding: 7px 12px 8px 12px;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 140%;
+      text-transform: uppercase;
+      border-radius: 39px;
+      transition: color .5s ease-in-out, background-color .5s ease-in-out;
+    }
+  }
+}
+
+.learn__item-bth:not(:last-child) {
+  margin-right: 4px;
+}
+
+.learn__item-bth:nth-child(-n+2) {
+  margin-bottom: 4px;
+}
+
+
+.learn__btn {
+  color: $desktop-white;
+  background-color: $desktop-white-200;
+}
+
+
+.learn__bth-one{
+  color: $desktop-primary-green;
+  background-color: $desktop-white;
+}
+
+.learn__container-div {
+  display: flex;
+}
+
+.learn__section-title-green {
+  color: $desktop-primary-green;
+}
+
+.learn__container-right {
+  padding-left: 16px;
+
+  .learn__section-list {
+    .learn__section-item {
+      .learn__section-title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 130%;
+        text-transform: uppercase;
+        color: $desktop-black;
+      }
+
+
+      .learn__section-container {
+        display: flex;
+        align-items: center;
+
+        .learn__section-img {
+          margin-right: 20px;
+        }
+
+        .learn__section-info {
+          display: flex;
+          flex-direction: column;
+
+          .learn__section-text {
+            max-width: 307px;
+            font-weight: 700;
+            font-size: 16px;
+            margin-bottom: 32px;
+            line-height: 140%;
+            text-transform: uppercase;
+            color: $desktop-black;
+          }
+
+          .learn__section-data {
+            font-weight: 700;
+            font-size: 12px;
+            padding: 8px 12px;
+            max-width: 144px;
+            line-height: 140%;
+            border-radius: 39px;
+            text-transform: uppercase;
+            color: $desktop-black;
+            background-color: $desktop-background;
+          }
+        }
+      }
+    }
+  }
+}
+
+.learn__btn-cloce {
+  background-color: transparent;
+}
+
+.learn__section-item:not(:last-child) {
+  padding-bottom: 20px;
+  border-bottom: 1px solid $desktop-grey-200;
+}
+
+.learn__section-item {
+  padding-top: 20px;
+
+}
+
+.learn__section-item:first-child {
+  padding-top: 0px;
+}
+
+#learn__section-title-green {
+  color: $desktop-primary-green;
+}
+
+.learn__section-texts {
+  max-width: 464px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 16px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: $desktop-black;
+}
+
+.learn__section-video {
+  margin-bottom: 103px;
+}
+
+.learn__section-articles {
+  margin-bottom: 144px;
+}
+
+.learn__section-term {
+  margin-bottom: 225px;
+}
+
+.learn__section-info-wrap {
+  display: flex;
+
+  .learn__section-textinfo {
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px 12px;
+    margin-right: 4px;
+    line-height: 140%;
+    text-transform: uppercase;
+    border-radius: 39px;
+    color: $desktop-black;
+    background-color: $desktop-background;
+  }
+
+  .learn__section-btn {
+    font-weight: 700;
+    font-size: 12px;
+    padding: 7px 12px 8px 12px;
+    line-height: 140%;
+    border-radius: 39px;
+    text-transform: uppercase;
+    color: $desktop-white;
+    background-color: $desktop-black;
+  }
+}
